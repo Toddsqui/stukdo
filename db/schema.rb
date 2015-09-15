@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20150914132648) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
-    t.string   "state",        default: "To_do"
+    t.string   "state",        default: "to_do"
     t.text     "content_html"
   end
 
